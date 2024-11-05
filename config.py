@@ -21,7 +21,7 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "bcec9915423f7ab7e42e36e9c95a9bb3d22c132d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 600)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "True")
+IS_VERIFY = os.environ.get("IS_VERIFY", "False")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/How_to_Download_7x/35") 
 
 #force sub channel id, if you want enable force sub
