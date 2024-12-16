@@ -18,10 +18,10 @@ DB_NAME = os.environ.get("DATABASE_NAME", "codeflix_bots")
 
 #Shortner (token system) 
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://tryshort.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "e1cc413c5c5d13fa651b17f9bb2fe95438a9e490")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "https://publicearn.online")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "bcec9915423f7ab7e42e36e9c95a9bb3d22c132d")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 31536000)) # Add time in seconds
-IS_VERIFY = os.environ.get("IS_VERIFY", "False")
+IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID", "https://t.me/Howt0OpenLink/4") 
 
 #force sub channel id, if you want enable force sub
